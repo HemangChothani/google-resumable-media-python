@@ -299,7 +299,7 @@ def _add_decoder(response_raw, md5_hash):
     This is so that we can intercept the compressed bytes before they are
     decoded.
 
-    Only patches if the content encoding is ``gzip`` and ``deflated``.
+    Only patches if the content encoding is ``gzip`` and ``deflate``.
 
     Args:
         response_raw (urllib3.response.HTTPResponse): The raw response for
